@@ -35,15 +35,27 @@ Instala los siguientes elementos:
 ### Instrucciones para ejecutar el programa
 
 1. **Instalación de dependencias:**
-   - Ejecute el siguiente comando para instalar las dependencias: `npm install`
+   - Ejecute el siguiente comando para instalar las dependencias:
+     ```sh
+     npm install
+     ```
 
 2. **Opción 1: Ejecutar desde la terminal:**
-   - Ejecute el comando: `node index.js`
+   - Ejecute el comando:
+     ```sh
+     node index.js
+     ```
 
 3. **Opción 2: Crear ejecutable con pkg:**
    - Ejecute el siguiente comando en la terminal:
-      - Para crear el ejecutable para todos los sistemas (Windows, Linux y macOS), ejecute: `pkg index.js`
-      - Si desea especificar su sistema operativo, utilice la opción "-t". Para obtener más información, ejecute: `pkg -h`
+      - Para crear el ejecutable para todos los sistemas (Windows, Linux y macOS), ejecute:
+        ```sh
+        pkg index.js
+        ```
+      - Si desea especificar su sistema operativo, utilice la opción "-t". Para obtener más información, ejecute:
+         ```sh
+        pkg -h
+         ```
       - Ejecute el archivo creado después de la generación del ejecutable.
 
 ### Escenarios
